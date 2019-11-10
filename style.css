@@ -1,0 +1,116 @@
+.jumbotron{
+    text-align: center;
+    background-color: black;
+    color: #ffffff;
+    margin-top: 20px;
+    padding: 2px;
+    width: 90%;
+    margin-left: 50px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-left: 200px; 
+}
+.box{
+    border-radius: 2px solid black;
+}
+
+h2{
+    margin-left: 20px;
+}
+
+.searchBtn{
+    color: blue;
+    background-color: aqua;
+    padding: 5px;
+}
+
+.search{
+    padding: 5px;
+    width: 185px;
+}
+
+.col-sm-3{
+    grid-column: 1 / 4;
+    grid-row: 1;
+    background-color: #f2f2f2;
+    height: 450px;
+    width: 400px;
+    margin-top: -20px;
+    margin-left: -150px;
+    padding: 20px;
+}
+
+#lbl{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#add-city{
+    margin-top: 10px;
+}
+
+.col-sm-9{
+    grid-column: 1 / 2;
+    grid-row: 1;
+    margin-left: 200px;
+    width: 700px;
+}
+
+.city{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.temp{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.humid{
+    margin-bottom: 10px;
+}
+
+.wind{
+    margin-bottom: 10px;
+}
+
+.h3{
+    margin-top: 20px;
+    margin-bottom: -30px;
+}
+.row{
+    margin-top: 50px;
+}
+#col2{
+
+    margin-left: 15px;
+    margin-right: 20px;
+    width: 80px;
+    height: 120px;
+    background-color: aqua;
+}
+
+#col3{
+    margin-right: 20px;
+    background-color: aqua;  
+}
+
+#col4{
+    margin-right: 20px;
+    background-color: aqua
+}
+
+#col5{
+    margin-right: 20px;
+    background-color: aqua;
+}
+
+#col6{
+    background-color: aqua;
+}
+
